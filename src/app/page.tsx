@@ -3,7 +3,7 @@
 function App() {
   return (
     <div className="min-h-screen bg-[#fffff8]">
-      <section className="md:w-1/2 mx-auto pt-48">
+      <section className="md:w-1/2 mx-auto pt-48 px-4">
         <div>
           <div className="">
             {/* <img src="/aptos-logo.svg" alt="Aptos Logo" className="w-6 -translate-y-0.5" /> */}
