@@ -12,7 +12,7 @@ async function publish() {
       addressName: "message_board_addr",
       namedAddresses: {
         // Publish module to new object, but since we create the object on the fly, we fill in the publisher's account address here
-        message_board_addr: process.env.NEXT_MODULE_PUBLISHER_ACCOUNT_ADDRESS,
+        legacy_addr: process.env.NEXT_MODULE_PUBLISHER_ACCOUNT_ADDRESS,
       },
       extraArguments: [`--private-key=${process.env.NEXT_MODULE_PUBLISHER_ACCOUNT_PRIVATE_KEY}`,`--url=${aptosSDK.NetworkToNodeAPI[process.env.NEXT_PUBLIC_APP_NETWORK]}`],
     })
