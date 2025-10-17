@@ -73,5 +73,18 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   }
+}
+
+.curvy {
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.main-btn {
+  box-shadow: 4px 4px rgb(250, 94, 94);
+}
+
+.main-btn:hover {
+  box-shadow: 3px 3px rgb(250, 94, 94);
 }
